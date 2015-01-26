@@ -1,6 +1,6 @@
 # Maintainable and Scalable CSS
 
-Contains a collection of (opinionated) tips and advices on creating scalable and maintainable CSS for enterprise projects. Feel free to contribute by adding your thoughts and resource links.
+Contains a collection of (opinionated) best practice tips and advices on creating scalable and maintainable CSS for enterprise projects. Feel free to contribute by adding your thoughts and resource links.
 
 ## List of Resources
 
@@ -16,9 +16,9 @@ Contains a collection of (opinionated) tips and advices on creating scalable and
 - [OOCSS](http://oocss.org/)
 - [BEM](http://bem.github.io/bem-method/html/all.en.html)
 
-## Things to think about while developing...
+## Things to think about...
 
-These are things that should go through your mind as you develop and make decisions. Some of these items may conflict with each other. Also, depending on the size and life of the project, some may or may not even be relevant.
+These are things that should go through your mind as you develop and make decisions on your architecture. Granted, some of these items may conflict with each other. Depending on the size and life of the project, some may be more or not at all relevant.
 
 - How easy is it to navigate through the CSS project and find what you want?
 - How easy is it to modify an element? Will it conflict with other elements? Is there too much ceremonies?
