@@ -1,12 +1,20 @@
 # Maintainable and Scalable CSS
 
-Contains a collection of (opinionated) tips and advices on creating scalable and maintainable CSS for enterprise projects. It is a continual work-in-progress and is waiting for your contributions.
+Contains a collection of (opinionated) tips and advices on creating scalable and maintainable CSS for enterprise projects. Feel free to contribute by adding your thoughts and resource links.
 
 ## List of Resources
 
-- https://smacss.com/
-- http://oocss.org/
-- http://bem.github.io/bem-method/html/all.en.html
+**Preprocessors**
+
+- [LESS](lesscss.org)
+- [SASS](sass-lang.com)
+- [Stylus](http://learnboost.github.io/stylus/)
+
+**Popular Style Guides**
+
+- [SMACSS](https://smacss.com/)
+- [OOCSS](http://oocss.org/)
+- [BEM](http://bem.github.io/bem-method/html/all.en.html)
 
 ## Things to think about while developing...
 
@@ -26,10 +34,6 @@ These are things that should go through your mind as you develop and make decisi
 - Is it easy for new members to discover elements and modify?
 - Will new features be easy to add?
 - How easy is it to create changes? What about global changes?
-
-## What is a maintainable CSS?
-
-TODO: define scalability and maintainability
 
 ## BEM
 
