@@ -94,6 +94,7 @@ It is easier to see what has changed, how many properties have changed with mult
 
 ### Example CSS
 
+```
 .Block {
     &__Element {}
     &--modifier {}
@@ -101,6 +102,7 @@ It is easier to see what has changed, how many properties have changed with mult
     
     .SubElement {}
 }
+```
 
 ### Prefixes
 
