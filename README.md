@@ -8,19 +8,15 @@ Contains a collection of (opinionated) tips and advices on creating scalable and
 - http://oocss.org/
 - http://bem.github.io/bem-method/html/all.en.html
 
-## What does maintainable CSS and scalable CSS mean?
+## Things to think about while developing...
 
-TODO: define scalability and maintainability
+These are things that should go through your mind as you develop and make decisions. Some of these items may conflict with each other. Also, depending on the size and life of the project, some may or may not even be relevant.
 
-### Things to think about
-
-Some of these items may conflict with each other. Also, depending on the size and life of the project, some may or may not even be relevant. 
-
-- How easy is it to navigate through the files and find what you want?
-- How easy is it to modify a property?
-- Do you know which classes are used or not? Is this class safe to delete or will it cause hell to break loose?
+- How easy is it to navigate through the CSS project and find what you want?
+- How easy is it to modify an element? Will it conflict with other elements? Is there too much ceremonies?
+- Do you know which classes are used or not? How would you know if the class you are looking at is safe to delete or if it will cause hell to break loose?
 - Is it clean and organized?
-- Is the source code well structured and easy to read?
+- Is the source easy to read?
 - Are skin and layout classes distinguished?
 - Is it themable? 
 - Is it DRY?
@@ -29,7 +25,11 @@ Some of these items may conflict with each other. Also, depending on the size an
 - How easy is it to reuse code?
 - Is it easy for new members to discover elements and modify?
 - Will new features be easy to add?
-- What about when new changes happen?
+- How easy is it to create changes? What about global changes?
+
+## What is a maintainable CSS?
+
+TODO: define scalability and maintainability
 
 ## BEM
 
@@ -106,10 +106,10 @@ It is easier to see what has changed, how many properties have changed with mult
 
 ### Prefixes
 
-Why prefixes? It makes it easier to read through the source code and see which is which. It forces a strict sense of conscious difference between what a layout is versus what a component is.
+Why use prefixes? It makes it easier to read through the source code and see which is which. It forces a strict sense of conscious difference between what a layout is versus what a component is.
 
-p-  page specific, usually applied on the body element;
-l-  layout like columns, wrappers, containers, etc...
-c-  for components
-u-  utility classes
-js- hooks for js; should never appear in css itself 
+- p-  page specific, usually applied on the body element;
+- l-  layout like columns, wrappers, containers, etc...
+- c-  for components
+- u-  utility classes
+- js- hooks for js; should never appear in css itself 
