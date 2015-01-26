@@ -8,23 +8,28 @@ Contains a collection of (opinionated) tips and advices on creating scalable and
 - http://oocss.org/
 - http://bem.github.io/bem-method/html/all.en.html
 
-## What is a Maintainable and Scalable CSS?
+## What does maintainable CSS and scalable CSS mean?
 
 TODO: define scalability and maintainability
 
-## Checklist
+### Things to think about
 
-- How easy is it to navigate through the files?
-- Ease to modify
-- Knowing Precisely What Classes Are Used or Not
-- Clean and Organized
-- Skin vs Layout Separated
-- Is it themable?
-- Loose coupling, strong cohesion
-- Quick to develop
-- Code Reuse
-- Team Efficiency
-- Scalable
+Some of these items may conflict with each other. Also, depending on the size and life of the project, some may or may not even be relevant. 
+
+- How easy is it to navigate through the files and find what you want?
+- How easy is it to modify a property?
+- Do you know which classes are used or not? Is this class safe to delete or will it cause hell to break loose?
+- Is it clean and organized?
+- Is the source code well structured and easy to read?
+- Are skin and layout classes distinguished?
+- Is it themable? 
+- Is it DRY?
+- Is the cohesion between siblings or descendants strong and discoverable?
+- Is it quick to develop with this method?
+- How easy is it to reuse code?
+- Is it easy for new members to discover elements and modify?
+- Will new features be easy to add?
+- What about when new changes happen?
 
 ## BEM
 
