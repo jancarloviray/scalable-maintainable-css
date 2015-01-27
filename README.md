@@ -16,6 +16,10 @@ Contains a collection of (opinionated) best practice tips and advices on creatin
 - [OOCSS](http://oocss.org/)
 - [BEM](http://bem.github.io/bem-method/html/all.en.html)
 
+Guides
+
+- [CSS Guidelines](cssguidelin.es)
+
 ## Things to think about...
 
 These are things that should go through your mind as you develop and make decisions on your architecture. Granted, some of these items may conflict with each other. Depending on the size and life of the project, some may be more or not at all relevant.
